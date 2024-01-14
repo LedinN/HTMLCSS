@@ -4,8 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact us</title>
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
-<body>
+<body class="mainbody">
+    <header>
+        <h1>Contact us!</h1>
+    </header>
+    <main>
+        <hr>
+        <h3>Links</h3>
+        <ul>
+            <li><a href="tel:+46700864888">Nicks telephone</a><br></li>
+            <li><a href="mailto:nick.ledin@hotmail.com">Nick.Ledin@hotmail.com</a><br></li>
+        </ul>
+        <hr>
+<h3>Fill this out please</h3>
+
+<form>
+    <fieldset>
+        <legend>Personal info:</legend>
+        <input type="text" name="name" required placeholder="Name">
+        <br><br>
+        <input type="email" name="email" placeholder="E-mail">
+        <br><br>
+        <input type="tel" name="telephone" placeholder="070-123 45 67">
+        <br><br>
+        <input type="radio" id="existing" name="iscustomer" value="New customer">
+        <label for="existing">New customer</label>
+        <br>
+        <input type="radio" id="newcust" name="iscustomer" value="Existing customer">
+        <label for="Existing customer">Existing customer</label>
+        
+    </fieldset>
+    <fieldset>
+    <h3>Let us know what you think of our site.</h3>
     
+    <textarea name="topic" id="topic" cols="50" rows="1" placeholder="Topic"></textarea>
+    <br>
+    <textarea name="message" id="message" cols="50" rows="10" placeholder="Text"></textarea>
+    <br><br>
+    
+        I agree that nick can use my information to crack my passwords and steal my money.
+        <br><br>
+            <input type="checkbox" name="Agree" value="Agree">
+            <label for="Agree">I agree.</label>
+        <br><br>
+    <input type="submit">
+</fieldset>
+</form>
+    </main>
+    <footer class="thefooter"><hr>
+        <h3>Site navigation</h3>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="uppgift2.html">Nr 2</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
