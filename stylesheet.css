@@ -1,9 +1,12 @@
-.mainbody {
-    background-color: #f3f591;
+body {
+    background-color: #f4f5cc;
     color: rgb(6, 7, 0);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
-.thefooter {
-    background-color: rgb(196, 199, 22);
+footer {
+    background-color: rgb(227, 135, 255);
+    
+}
+.formc {
     
 }

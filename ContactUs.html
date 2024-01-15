@@ -20,7 +20,7 @@
         <hr>
 <h3>Fill this out please</h3>
 
-<form>
+<form class="formcl">
     <fieldset>
         <legend>Personal info:</legend>
         <input type="text" name="name" required placeholder="Name">
@@ -32,13 +32,13 @@
         <input type="radio" id="existing" name="iscustomer" value="New customer">
         <label for="existing">New customer</label>
         <br>
-        <input type="radio" id="newcust" name="iscustomer" value="Existing customer">
-        <label for="Existing customer">Existing customer</label>
+        <input type="radio" id="newcust" name="iscustomer" value="Existingcustomer">
+        <label for="newcust">Existing customer</label>
         
     </fieldset>
     <fieldset>
     <h3>Let us know what you think of our site.</h3>
-    
+
     <textarea name="topic" id="topic" cols="50" rows="1" placeholder="Topic"></textarea>
     <br>
     <textarea name="message" id="message" cols="50" rows="10" placeholder="Text"></textarea>
@@ -46,7 +46,7 @@
     
         I agree that nick can use my information to crack my passwords and steal my money.
         <br><br>
-            <input type="checkbox" name="Agree" value="Agree">
+            <input type="checkbox" id="Agree" value="Agree" required>
             <label for="Agree">I agree.</label>
         <br><br>
     <input type="submit">
