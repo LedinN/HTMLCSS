@@ -27,14 +27,14 @@ function resetbackground() {
     document.getElementById("homepagebody").style.backgroundColor="#f4f5cc";
 }
 
-const menubutton= document.getElementsById("hidemenu");
+const menubutton= document.getElementById("hidemenu");
 hidemenu.addEventListener('click', hidemenufunc)
 
 function hidemenufunc() {
-    var x = document.getElementsById("bodydiv");
-    if (x.style.display === "none"){
-        x.style.display = "block";
-    } else  {
-        x.style.display = "none";
+    var bodydiv = document.getElementById("bodydiv");
+    if (bodydiv.style.visibility === "hidden") {
+    bodydiv.style.visibility = "visible";
+    } else {
+        bodydiv.style.visibility = "hidden";
     }
 } 
