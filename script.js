@@ -38,3 +38,10 @@ function hidemenufunc() {
         bodydiv.style.visibility = "hidden";
     }
 } 
+
+const menubutton2= document.getElementById("hidemenu2");
+hidemenu2.addEventListener('click', hidemenufunc2)
+
+function hidemenufunc2() {
+    document.getElementById("bodydiv").classList.add("myStyle");
+}

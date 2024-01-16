@@ -12,3 +12,8 @@ footer {
     color: rgb(6, 7, 0);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
+
+.myStyle {
+    background-color: coral;
+    padding: 16px;
+}
